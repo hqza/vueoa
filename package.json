@@ -14,6 +14,8 @@
     "test:ci": "npm run lint && npm run test:unit"
   },
   "dependencies": {
+    "@form-create/element-ui": "^2.5.17",
+    "@form-create/designer": "^1.0.8",
     "axios": "0.18.1",
     "core-js": "3.6.5",
     "element-ui": "2.13.2",
@@ -58,5 +60,17 @@
     "node": ">=8.9",
     "npm": ">= 3.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://username: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@github.com/hqza/vueoa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hqza/vueoa/issues"
+  },
+  "homepage": "https://github.com/hqza/vueoa#readme"
 }
